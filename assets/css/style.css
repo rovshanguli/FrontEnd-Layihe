@@ -1,0 +1,463 @@
+header #covid19 * {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+header #covid19 .header-txt {
+  height: 5vh;
+}
+
+header #covid19 .header-txt p {
+  text-align: center;
+  background-color: #233a95;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+header #headermenu {
+  border-bottom: 1px solid #2bbef9;
+}
+
+header #headermenu .headermenu .container * {
+  padding: 0 !important;
+}
+
+header #headermenu .headermenu nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+}
+
+header #headermenu .headermenu nav ul li a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-size: 90%;
+  margin-right: 10px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+header #headermenu .headermenu nav ul li a:hover {
+  color: #2bbef9;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+header #headermenu .secured * {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+header #headermenu .secured .icon-text {
+  float: right;
+  border-right: 1px solid #2bbef9;
+}
+
+header #headermenu .secured img {
+  display: inline-block;
+  width: 4%;
+  padding-left: 40%;
+}
+
+header #headermenu .secured span {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 90%;
+  font-family: "Inter", sans-serif;
+  margin-right: 5px;
+}
+
+header #headermenu .secured span::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #headermenu .secured span::before {
+  content: "\f132";
+}
+
+header #headermenu .num-select span {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 90%;
+  font-family: "Inter", sans-serif;
+}
+
+header #headermenu .num-select a {
+  text-decoration: none;
+  color: #2bbef9;
+  padding-left: 10px;
+}
+
+header #headermenu .num-select a:hover {
+  text-decoration: underline;
+  -webkit-transition: all .9s;
+  transition: all .9s;
+}
+
+header #headermenu .num-select .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+header #headermenu .num-select .dropdown span:hover {
+  color: #2bbef9;
+}
+
+header #headermenu .num-select .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+header #headermenu .num-select .dropdown .dropdown-content P {
+  margin: 0;
+  padding: 0px 10px;
+}
+
+header #headermenu .num-select .dropdown .dropdown-content:hover {
+  color: #2bbef9;
+}
+
+header #headermenu .num-select .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header #mainheader .logo img {
+  width: 100%;
+}
+
+header #mainheader .logo span {
+  font-size: 59%;
+  color: #2bbef9;
+  cursor: pointer;
+}
+
+header #mainheader .location {
+  margin-top: 15px;
+  border: 1px solid #2bbef9;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  margin-left: 46px;
+}
+
+header #mainheader .location #myInput {
+  background-image: url("/css/searchicon.png");
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+header #mainheader .location #myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header #mainheader .location #myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+header #mainheader .location #myUL li:hover {
+  color: #2bbef9 !important;
+}
+
+header #mainheader .location #myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+header #mainheader .location span {
+  display: block;
+  font-size: 59%;
+  color: #2bbef9;
+}
+
+header #mainheader .location:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+header #mainheader .location button {
+  width: 100%;
+  height: 50%;
+  background: none;
+  margin-left: 0;
+  border: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header #mainheader .location button::after {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+  padding-left: 20px;
+  color: #2bbef9;
+}
+
+header #mainheader .location button::after {
+  content: "\f078";
+}
+
+header #mainheader .searchbox form {
+  padding-top: 21px;
+}
+
+header #mainheader .searchbox form input {
+  border: none;
+  width: 90%;
+  height: 48px;
+  background: #f3f4f7;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+header #mainheader .searchbox form input:focus {
+  outline: none;
+}
+
+header #mainheader .searchbox form input::after {
+  content: "\f078";
+}
+
+header #mainheader .shoping {
+  padding-top: 30px;
+}
+
+header #mainheader .shoping i {
+  cursor: pointer;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+header #mainheader .shoping i:last-child {
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 26px;
+}
+
+header #mainheader .shoping .shop {
+  width: 20%;
+  margin: 0;
+}
+
+header #mainheader .shoping span {
+  font-size: 30px;
+  font-size: 22px;
+  margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header #navmenu .allcatagories {
+  margin-top: 2vh;
+  width: 70%;
+  height: 7vh;
+  background-color: #2bbef9;
+  border-radius: 20px;
+  position: relative;
+}
+
+header #navmenu .allcatagories span {
+  position: absolute;
+  left: 7%;
+  top: 26%;
+  color: white;
+  font-weight: 30%;
+  font-size: large;
+  cursor: pointer;
+}
+
+header #navmenu .allcatagories span::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #navmenu .allcatagories span::before {
+  content: '\f0c9';
+  font-size: 15px;
+  padding-bottom: 2px;
+}
+
+header #navmenu .allcatagories span::after {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #navmenu .allcatagories span::after {
+  content: '\f107';
+  padding-left: 15px;
+}
+
+header #navmenu .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 2%;
+  float: right;
+}
+
+header #navmenu .navbar ul .active {
+  background-color: #2bbef9;
+}
+
+header #navmenu .navbar ul li {
+  padding: 5px 10px;
+  border-radius: 13px;
+  font-size: 14px;
+}
+
+header #navmenu .navbar ul li:nth-child(1)::after {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #navmenu .navbar ul li:nth-child(1)::after {
+  content: '\f107';
+  padding-left: 15px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+header #navmenu .navbar ul li:nth-child(2)::after {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #navmenu .navbar ul li:nth-child(2)::after {
+  content: '\f107';
+  padding-left: 15px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+header #navmenu .navbar ul li:nth-child(3)::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #navmenu .navbar ul li:nth-child(3)::before {
+  content: '\f6d7';
+  padding-left: 15px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+header #navmenu .navbar ul li:nth-child(4)::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #navmenu .navbar ul li:nth-child(4)::before {
+  content: '\f6d7';
+  padding-left: 15px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+header #navmenu .navbar ul li:nth-child(5)::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #navmenu .navbar ul li:nth-child(5)::before {
+  content: '\f6d7';
+  padding-left: 15px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+header #navmenu .navbar ul li:nth-child(6)::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #navmenu .navbar ul li:nth-child(6)::before {
+  content: '\f6d7';
+  padding-left: 15px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+header #navmenu .navbar ul li:nth-child(7)::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+header #navmenu .navbar ul li:nth-child(7)::before {
+  content: '\f6d7';
+  padding-left: 15px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+header #navmenu .navbar ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
