@@ -17,4 +17,21 @@ function myFunction() {
         }
     }
 }
-myFunction()
+$(function () {
+    //Slider
+    const nexticon = '<i class="fas fa-arrow-right"></i>';
+    const previcon = '<i class="fas fa-arrow-left"></i>';
+    $(".home-slider").owlCarousel({
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        items: 1,
+        smartSpeed: 450,
+        nav: true,
+        dots: false,
+        animateIn: true,
+        animateOut: true,
+        navText: [previcon,nexticon],
+        loop: true
+    });
+})
+

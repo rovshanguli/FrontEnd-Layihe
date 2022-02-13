@@ -421,5 +421,123 @@ header{
     }
 }
 main{
-    
+    #slider{
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .home-slider{
+            width: 100%;
+            
+           img{
+               width: 100%;
+           }
+        }
+        
+    }
+    #products{
+        .products{
+            padding: 15px;
+            width: 1200px;
+            height: 322.400px;
+            display: flex;
+            
+            .main-product{
+                font-family: $primary-fontFamily;
+                width: 232.600px;
+                height: 290.400px;
+                padding: 20px;
+                border: 1px solid $secondary-color;
+                
+                .image{
+                    margin-bottom: 15px;
+                    width: 192.600px;
+                    height: 192.600px;
+                    
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                    }
+                    
+                }
+                .detale{
+                    text-align: center;
+                    h3{
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                    
+                }
+                .count{
+                    text-align: center;
+                }
+            }
+            .allproducts{
+                padding: 20px;
+                margin-left: 10px;
+                width: 229.6px;
+                height: 145.2px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                border: 1px solid #2bbef9;
+                .image{
+                    width: 70px;
+                    height: 70px;
+                    margin-right: 12px;
+                    margin-bottom: 15px;
+                    background-color: black;
+                    a{
+                        text-decoration: none;
+                    }
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .detale{
+                    width: 110.6px;
+                    height: 59.6px;
+                   
+                   
+                    h3{
+                        width: 100%;
+                        height: 33.6px;
+                        margin-bottom: 8px;
+                        font-size: 15px;
+                        
+                        
+                        a{
+                            color: #202435;
+                            text-decoration: none;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #dealsoftheweek{
+        .deals{
+            padding: 15px;
+            width: 1200px;
+            height: 322.400px;
+            display: flex;
+            .timerdeal{
+                width: 420px;
+                height: 797.05px;
+                padding: 15px;
+                background-color: #2bbef9;
+                .dealcontent{
+                    .dealheader{
+                        width: 390px;
+                        height: 143px;
+                        padding: 30px 30px 0px 30px;
+                        background-color: #202435;
+                    }
+                }
+            }
+        }
+    }
 }
