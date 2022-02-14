@@ -305,6 +305,7 @@ header{
                     padding-left: 15px;
                 }
             }
+            
         }
         .navbar{
             ul{
@@ -419,8 +420,21 @@ header{
             }
         }
     }
+    #z-index{
+        div{
+            width: 100px;
+            height: 100px;
+            left: 134px;
+            top: 240px;
+            position: absolute;
+            background-color: #2bbef9;
+            z-index: 2;
+            display: block;
+        }
+    }
 }
 main{
+    
     #slider{
         *{
             margin: 0;
@@ -688,63 +702,8 @@ main{
                     padding: 0;
                    
                 }
-                .product{
-                    display: flex;
-                    position: relative;
-                    &:hover .card a:nth-child(2){
-                        display: block;
-                    }
-                    &:hover{
-                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-                    }
-                    .card{
-                        .percent{
-                            position: absolute;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border-radius: 5px;
-                            left: 17px;
-                            top: 16px;
-                            background-color: $secondary-color;
-                            width: 40px;
-                            height: 20px;
-                            color: white;
-                        }
-                        .recommended{
-                            position: absolute;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border-radius: 5px;
-                            left: 17px;
-                            top: 45px;
-                            background-color: red;
-                            width: 126px;
-                            height: 20px;
-                            color: white;
-                        }
-                        a:nth-child(1){
-                            text-decoration: none;
-                            color: $text-color;
-                            display: block;
-                            padding: 5px 20px;
-                            font-family: $primary-fontFamily;
-                            &:hover{
-                            color: $succes-color;
-                            }
-
-                        }
-                        a:nth-child(2){
-                            position: absolute;
-                            bottom:20px;
-                            left: 24%;
-                            background-color: $text-color;
-                            color: white;
-                            display: none;
-                        }
-                    }
-                }
+                @extend %extend-cardhover;
+                
             }
         }
     }
@@ -792,103 +751,209 @@ main{
             width: 1200px;
             
             .mycarusel{
+                position: relative;
                 .owl-nav{
                     position: absolute;
-                    top: 200px;
+                    top: 40%;
                     width: 100%;
+                    height: 50px;
+                    
                     .owl-prev{
                         position: absolute;
-                        left: 60px;
-                        span{
-                        position: absolute;
-                        left: 0px;
+                        left: -30px;
                         background-color: white;
                         width: 50px;
                         height: 50px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
                         border-radius: 50%;
+                        border: 1px solid black;
+                        span{
+                            font-size: 30px;
+                            margin-bottom: 9px;
+                            display: block;
                         }
                     }
                     .owl-next{
                         position: absolute;
-                        left: 0px;
-                        span{
-                        position: absolute;
-                        left: 60px;
+                        right: -30px;
                         background-color: white;
                         width: 50px;
                         height: 50px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
                         border-radius: 50%;
+                        border: 1px solid black;
+                        span{
+                            font-size: 30px;
+                            margin-bottom: 9px;
+                            display: block;
                         }
                     }
                 }
-                .mycard{
+                @extend %extend-card
+            }
+        }
+    }
+    
+}
+footer{
+    .main{
+        background-color: $primary-color;
+        width: 100%;
+        .owncontainer{
+            width: 1200px;
+            position: relative;
+            .joinus{
+                .content{
+                    padding-top: 80px;
+                    position: absolute;
                     height: 100%;
-                    display: flex;
-                    position: relative;
-                    &:hover .card a:nth-child(2){
+                    p{
+                        color: white;
+                    }
+                    h4{
+                        color: white;
+                    }
+                    span{
                         display: block;
+                        width: 80%;
+                        height: auto;
+                        color: #ddd;
                     }
-                    &:hover{
-                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-                    }
-                    .card{
-                        .card-body{
-                            height: 181px;
-                            text-align: center;
-                            width: 254px
+                    .mail {
+                        span{
+                        width: auto;
+                        height: auto;
+                        font-size: 26px;
+                        border: none;
+                        background: white;
+                        border-radius: 0px;
                         }
-                        .percent{
-                            position: absolute;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border-radius: 5px;
-                            left: 17px;
-                            top: 16px;
-                            background-color: $secondary-color;
-                            width: 40px;
-                            height: 20px;
+                        input[type = button]{
+                            background-color: $primary-color;
                             color: white;
                         }
-                        .recommended{
-                            position: absolute;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border-radius: 5px;
-                            left: 17px;
-                            top: 45px;
-                            background-color: red;
-                            width: 126px;
-                            height: 20px;
-                            color: white;
-                        }
-                        a:nth-child(1){
-                            text-decoration: none;
-                            color: $text-color;
-                            display: block;
-                            padding: 5px 20px;
-                            font-family: $primary-fontFamily;
-                            &:hover{
-                            color: $succes-color;
+                    }
+                }
+            }
+            .img{
+                display: flex;
+                justify-content: flex-end;
+                
+            }
+            
+        }
+    }
+    .owncontainer{
+        width: 1200px;
+        position: relative;
+        .col-3{
+            span{
+                display: inline-block;
+                font-weight:400 ;
+                padding-top: 20px;
+                font-family: $primary-fontFamily;
+                cursor: pointer;
+                &::before{
+                    font-family: FontAwesome;
+                    display: inline-block;
+                    padding-right: 6px;
+                    vertical-align: middle;
+                }
+                &:nth-child(1)::before{
+                    content: '\f7ef';
+                    padding-left: 15px;
+                    color: black;
+                    font-size: 18px;
+                    margin-bottom: 2px;
+                }
+            }
+        }
+    }
+    .info{
+        
+        .owncontainer{
+            width: 1200px;
+            margin-top: 30px;
+            .mylist{
+                
+                .mylistelements{
+                    h4{
+                        font-size: medium;
+                        text-align: start;
+                    }
+                    ul{
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        li{
+                            text-align:start;
+                            a{
+                                text-decoration: none;
+                                color: #2bbef9;
                             }
-
-                        }
-                        a:nth-child(2){
-                            position: absolute;
-                            bottom:40px;
-                            left: 24%;
-                            background-color: $text-color;
-                            color: white;
-                            
                         }
                     }
+                }
+            }
+        }
+    }
+    .contact{
+        .contactdetails{
+            width: 1200px;
+            .number{
+                h2{
+                    
+                    &::before{
+                    font-family: FontAwesome;
+                    display: inline-block;
+                    padding-right: 6px;
+                    vertical-align: middle;
+                    }
+                    &::before{
+                    content: '\f095';
+                    padding-left: 15px;
+                    color: black;
+                    margin-bottom: 2px;
+                    width: auto;
+                    height: auto;
+                    font-size: 23px;
+                    padding-bottom: 3px;
+                    }
+                }
+                span{
+                    margin-left: 36px;
+                }
+            }
+            .rightsection{
+                position: relative;
+                .socialmedias{
+                    position: absolute;
+                    right: 0;
+                    display: flex;
+                    i{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;                  
+                        font-size: 35px;
+                        width: auto;
+                        color: cornflowerblue;
+                        height: auto;
+                        padding: 5px;
+                        border: 1px solid blue;
+                        border-radius: 50%;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        justify-content: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+                }
+                .mobileapps{
+                    display: flex;
+                    right: 150px;
+                    top: 7px;
+                    position: absolute;
+                    
                 }
             }
         }

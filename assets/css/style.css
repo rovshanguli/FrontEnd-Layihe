@@ -1,3 +1,118 @@
+main #dealsoftheweek .deals .products .mycard, main #slider2 .slider2 .mycarusel .mycard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+main #dealsoftheweek .deals .products .mycard:hover, main #slider2 .slider2 .mycarusel .mycard:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main #dealsoftheweek .deals .products .mycard:hover i, main #slider2 .slider2 .mycarusel .mycard:hover i {
+  visibility: visible;
+}
+
+main #dealsoftheweek .deals .products .mycard i, main #slider2 .slider2 .mycarusel .mycard i {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  visibility: hidden;
+}
+
+main #dealsoftheweek .deals .products .mycard i:hover, main #slider2 .slider2 .mycarusel .mycard i:hover {
+  background-color: blue;
+  color: white;
+}
+
+main #dealsoftheweek .deals .products .mycard .card .card-body, main #slider2 .slider2 .mycarusel .mycard .card .card-body {
+  height: 181px;
+  text-align: center;
+  width: 254px;
+}
+
+main #dealsoftheweek .deals .products .mycard .card .percent, main #slider2 .slider2 .mycarusel .mycard .card .percent {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  left: 17px;
+  top: 16px;
+  background-color: #2bbef9;
+  width: 40px;
+  height: 20px;
+  color: white;
+}
+
+main #dealsoftheweek .deals .products .mycard .card .recommended, main #slider2 .slider2 .mycarusel .mycard .card .recommended {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  left: 17px;
+  top: 45px;
+  background-color: red;
+  width: 126px;
+  height: 20px;
+  color: white;
+}
+
+main #dealsoftheweek .deals .products .mycard .card a:nth-child(1), main #slider2 .slider2 .mycarusel .mycard .card a:nth-child(1) {
+  text-decoration: none;
+  color: #202435;
+  display: block;
+  padding: 5px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+main #dealsoftheweek .deals .products .mycard .card a:nth-child(1):hover, main #slider2 .slider2 .mycarusel .mycard .card a:nth-child(1):hover {
+  color: #00b853;
+}
+
+main #dealsoftheweek .deals .products .mycard .card a:nth-child(2), main #slider2 .slider2 .mycarusel .mycard .card a:nth-child(2) {
+  position: absolute;
+  bottom: 40px;
+  left: 24%;
+  background-color: #202435;
+  color: white;
+}
+
+main #dealsoftheweek .deals .products .card a:nth-child(2) {
+  display: none;
+}
+
+main #dealsoftheweek .deals .products .mycard:hover .card a:nth-child(2) {
+  display: block;
+}
+
 header #covid19 * {
   margin: 0px !important;
   padding: 0px !important;
@@ -461,6 +576,17 @@ header #navmenu .navbar ul li a {
   font-family: "Inter", sans-serif;
 }
 
+header #z-index div {
+  width: 100px;
+  height: 100px;
+  left: 134px;
+  top: 240px;
+  position: absolute;
+  background-color: #2bbef9;
+  z-index: 2;
+  display: block;
+}
+
 main #slider * {
   margin: 0;
   padding: 0;
@@ -782,83 +908,6 @@ main #dealsoftheweek .deals .products * {
   padding: 0;
 }
 
-main #dealsoftheweek .deals .products .product {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-}
-
-main #dealsoftheweek .deals .products .product:hover .card a:nth-child(2) {
-  display: block;
-}
-
-main #dealsoftheweek .deals .products .product:hover {
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-main #dealsoftheweek .deals .products .product .card .percent {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 5px;
-  left: 17px;
-  top: 16px;
-  background-color: #2bbef9;
-  width: 40px;
-  height: 20px;
-  color: white;
-}
-
-main #dealsoftheweek .deals .products .product .card .recommended {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 5px;
-  left: 17px;
-  top: 45px;
-  background-color: red;
-  width: 126px;
-  height: 20px;
-  color: white;
-}
-
-main #dealsoftheweek .deals .products .product .card a:nth-child(1) {
-  text-decoration: none;
-  color: #202435;
-  display: block;
-  padding: 5px 20px;
-  font-family: "Inter", sans-serif;
-}
-
-main #dealsoftheweek .deals .products .product .card a:nth-child(1):hover {
-  color: #00b853;
-}
-
-main #dealsoftheweek .deals .products .product .card a:nth-child(2) {
-  position: absolute;
-  bottom: 20px;
-  left: 24%;
-  background-color: #202435;
-  color: white;
-  display: none;
-}
-
 main #cookie .cookies {
   width: 1200px;
   padding-top: 40px;
@@ -907,138 +956,220 @@ main #slider2 .slider2 {
   width: 1200px;
 }
 
+main #slider2 .slider2 .mycarusel {
+  position: relative;
+}
+
 main #slider2 .slider2 .mycarusel .owl-nav {
   position: absolute;
-  top: 200px;
+  top: 40%;
   width: 100%;
+  height: 50px;
 }
 
 main #slider2 .slider2 .mycarusel .owl-nav .owl-prev {
   position: absolute;
-  left: 60px;
-}
-
-main #slider2 .slider2 .mycarusel .owl-nav .owl-prev span {
-  position: absolute;
-  left: 0px;
+  left: -30px;
   background-color: white;
   width: 50px;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-radius: 50%;
+  border: 1px solid black;
+}
+
+main #slider2 .slider2 .mycarusel .owl-nav .owl-prev span {
+  font-size: 30px;
+  margin-bottom: 9px;
+  display: block;
 }
 
 main #slider2 .slider2 .mycarusel .owl-nav .owl-next {
   position: absolute;
-  left: 0px;
-}
-
-main #slider2 .slider2 .mycarusel .owl-nav .owl-next span {
-  position: absolute;
-  left: 60px;
+  right: -30px;
   background-color: white;
   width: 50px;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-radius: 50%;
+  border: 1px solid black;
 }
 
-main #slider2 .slider2 .mycarusel .mycard {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+main #slider2 .slider2 .mycarusel .owl-nav .owl-next span {
+  font-size: 30px;
+  margin-bottom: 9px;
+  display: block;
+}
+
+footer .main {
+  background-color: #233a95;
+  width: 100%;
+}
+
+footer .main .owncontainer {
+  width: 1200px;
   position: relative;
 }
 
-main #slider2 .slider2 .mycarusel .mycard:hover .card a:nth-child(2) {
-  display: block;
-}
-
-main #slider2 .slider2 .mycarusel .mycard:hover {
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-main #slider2 .slider2 .mycarusel .mycard .card .card-body {
-  height: 181px;
-  text-align: center;
-  width: 254px;
-}
-
-main #slider2 .slider2 .mycarusel .mycard .card .percent {
+footer .main .owncontainer .joinus .content {
+  padding-top: 80px;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 5px;
-  left: 17px;
-  top: 16px;
-  background-color: #2bbef9;
-  width: 40px;
-  height: 20px;
+  height: 100%;
+}
+
+footer .main .owncontainer .joinus .content p {
   color: white;
 }
 
-main #slider2 .slider2 .mycarusel .mycard .card .recommended {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 5px;
-  left: 17px;
-  top: 45px;
-  background-color: red;
-  width: 126px;
-  height: 20px;
+footer .main .owncontainer .joinus .content h4 {
   color: white;
 }
 
-main #slider2 .slider2 .mycarusel .mycard .card a:nth-child(1) {
-  text-decoration: none;
-  color: #202435;
+footer .main .owncontainer .joinus .content span {
   display: block;
-  padding: 5px 20px;
+  width: 80%;
+  height: auto;
+  color: #ddd;
+}
+
+footer .main .owncontainer .joinus .content .mail span {
+  width: auto;
+  height: auto;
+  font-size: 26px;
+  border: none;
+  background: white;
+  border-radius: 0px;
+}
+
+footer .main .owncontainer .joinus .content .mail input[type=button] {
+  background-color: #233a95;
+  color: white;
+}
+
+footer .main .owncontainer .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .owncontainer {
+  width: 1200px;
+  position: relative;
+}
+
+footer .owncontainer .col-3 span {
+  display: inline-block;
+  font-weight: 400;
+  padding-top: 20px;
   font-family: "Inter", sans-serif;
+  cursor: pointer;
 }
 
-main #slider2 .slider2 .mycarusel .mycard .card a:nth-child(1):hover {
-  color: #00b853;
+footer .owncontainer .col-3 span::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
 }
 
-main #slider2 .slider2 .mycarusel .mycard .card a:nth-child(2) {
+footer .owncontainer .col-3 span:nth-child(1)::before {
+  content: '\f7ef';
+  padding-left: 15px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+footer .info .owncontainer {
+  width: 1200px;
+  margin-top: 30px;
+}
+
+footer .info .owncontainer .mylist .mylistelements h4 {
+  font-size: medium;
+  text-align: start;
+}
+
+footer .info .owncontainer .mylist .mylistelements ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .info .owncontainer .mylist .mylistelements ul li {
+  text-align: start;
+}
+
+footer .info .owncontainer .mylist .mylistelements ul li a {
+  text-decoration: none;
+  color: #2bbef9;
+}
+
+footer .contact .contactdetails {
+  width: 1200px;
+}
+
+footer .contact .contactdetails .number h2::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+
+footer .contact .contactdetails .number h2::before {
+  content: '\f095';
+  padding-left: 15px;
+  color: black;
+  margin-bottom: 2px;
+  width: auto;
+  height: auto;
+  font-size: 23px;
+  padding-bottom: 3px;
+}
+
+footer .contact .contactdetails .number span {
+  margin-left: 36px;
+}
+
+footer .contact .contactdetails .rightsection {
+  position: relative;
+}
+
+footer .contact .contactdetails .rightsection .socialmedias {
   position: absolute;
-  bottom: 40px;
-  left: 24%;
-  background-color: #202435;
-  color: white;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .contact .contactdetails .rightsection .socialmedias i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 35px;
+  width: auto;
+  color: cornflowerblue;
+  height: auto;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+footer .contact .contactdetails .rightsection .mobileapps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 150px;
+  top: 7px;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

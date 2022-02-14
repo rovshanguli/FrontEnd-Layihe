@@ -92,6 +92,9 @@ $(function () {
             }
         }
     })
-
+    //Custom Methods
+    $("#navmenu .allcatagories").click(function () {
+        $("#z-index div").css("background-color", "yellow")
+    })
 })
 
