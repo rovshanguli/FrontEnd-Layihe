@@ -476,6 +476,58 @@ main #slider .home-slider img {
   width: 100%;
 }
 
+main #slider .owl-nav {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+main #slider .owl-nav .owl-prev {
+  position: absolute;
+  left: 60px;
+}
+
+main #slider .owl-nav .owl-prev i {
+  position: absolute;
+  left: 60px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+main #slider .owl-nav .owl-next {
+  position: absolute;
+  right: 60px;
+}
+
+main #slider .owl-nav .owl-next i {
+  position: absolute;
+  right: 60px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
 main #products .products {
   padding: 15px;
   width: 1200px;
@@ -563,25 +615,430 @@ main #products .products .allproducts .detale h3 a {
 }
 
 main #dealsoftheweek .deals {
-  padding: 15px;
   width: 1200px;
-  height: 322.400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 main #dealsoftheweek .deals .timerdeal {
+  margin-right: 20px;
   width: 420px;
   height: 797.05px;
   padding: 15px;
-  background-color: #2bbef9;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 main #dealsoftheweek .deals .timerdeal .dealcontent .dealheader {
   width: 390px;
   height: 143px;
-  padding: 30px 30px 0px 30px;
+  padding: 0px 30px 0px 30px;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .dealheader .header-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .dealheader .header-txt h4 {
+  display: inline;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .dealheader .header-txt h3 {
+  display: inline;
+  color: red;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .dealheader .clock {
+  position: relative !important;
+  padding-top: 0px;
+  margin-left: -194px;
+  height: 100px;
+  width: 800px;
+  zoom: 1;
+  transform: scale(0.54);
+  -ms-transform: scale(0.54);
+  -webkit-transform: scale(0.54);
+  -o-transform: scale(0.54);
+  -moz-transform: scale(0.54);
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .deal-detale {
+  position: relative;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .deal-detale .deal-discount {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 16%;
+  top: 45px;
+  padding-top: 5px;
+  padding-top: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .deal-detale .img {
+  width: 100%;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .deal-detale .img img {
+  width: 100%;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .price-detale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .price-detale .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .price-detale .prices h5 {
+  text-decoration: line-through;
+  color: #c2c2d3;
+  display: inline;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .price-detale .prices h4 {
+  margin-left: 20px;
+  color: #d51243;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .name-detale h3 a {
+  text-decoration: none;
+  color: #202435;
+  font-size: 25px;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .name-detale h3 a:hover {
+  color: #2bbef9;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .stock span:nth-child(1) {
+  color: #9b9bb4;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .stock span:nth-child(2) {
+  color: #00b853;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .available {
+  text-align: end;
+  margin-right: 10px;
+  color: #00b853;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .available div {
+  width: 90%;
+  height: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#d51243), color-stop(50%, #ff6048), to(#ffcd00));
+  background: linear-gradient(90deg, #d51243 0%, #ff6048 50%, #ffcd00 100%);
+  border-radius: 10px;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main #dealsoftheweek .deals .timerdeal .dealcontent .stars i {
+  margin: 5px;
+  color: yellow;
+  padding-bottom: 20px;
+}
+
+main #dealsoftheweek .deals .products {
+  padding-left: 10px;
+}
+
+main #dealsoftheweek .deals .products * {
+  margin: 0;
+  padding: 0;
+}
+
+main #dealsoftheweek .deals .products .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+main #dealsoftheweek .deals .products .product:hover .card a:nth-child(2) {
+  display: block;
+}
+
+main #dealsoftheweek .deals .products .product:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main #dealsoftheweek .deals .products .product .card .percent {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  left: 17px;
+  top: 16px;
+  background-color: #2bbef9;
+  width: 40px;
+  height: 20px;
+  color: white;
+}
+
+main #dealsoftheweek .deals .products .product .card .recommended {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  left: 17px;
+  top: 45px;
+  background-color: red;
+  width: 126px;
+  height: 20px;
+  color: white;
+}
+
+main #dealsoftheweek .deals .products .product .card a:nth-child(1) {
+  text-decoration: none;
+  color: #202435;
+  display: block;
+  padding: 5px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+main #dealsoftheweek .deals .products .product .card a:nth-child(1):hover {
+  color: #00b853;
+}
+
+main #dealsoftheweek .deals .products .product .card a:nth-child(2) {
+  position: absolute;
+  bottom: 20px;
+  left: 24%;
   background-color: #202435;
+  color: white;
+  display: none;
+}
+
+main #cookie .cookies {
+  width: 1200px;
+  padding-top: 40px;
+}
+
+main #cookie .cookies .cookie {
+  position: relative;
+}
+
+main #cookie .cookies .cookie p {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-family: "Inter", sans-serif;
+  color: green;
+}
+
+main #cookie .cookies .cookie h4 {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+
+main #cookie .cookies .cookie a {
+  position: absolute;
+  padding: 5px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  top: 200px;
+  left: 30px;
+}
+
+main #cookie .cookies .cookie span {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+}
+
+main #cookie .cookies .cookie img {
+  border-radius: 20px;
+}
+
+main #slider2 .slider2 {
+  width: 1200px;
+}
+
+main #slider2 .slider2 .mycarusel .owl-nav {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+main #slider2 .slider2 .mycarusel .owl-nav .owl-prev {
+  position: absolute;
+  left: 60px;
+}
+
+main #slider2 .slider2 .mycarusel .owl-nav .owl-prev span {
+  position: absolute;
+  left: 0px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+main #slider2 .slider2 .mycarusel .owl-nav .owl-next {
+  position: absolute;
+  left: 0px;
+}
+
+main #slider2 .slider2 .mycarusel .owl-nav .owl-next span {
+  position: absolute;
+  left: 60px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+main #slider2 .slider2 .mycarusel .mycard {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+main #slider2 .slider2 .mycarusel .mycard:hover .card a:nth-child(2) {
+  display: block;
+}
+
+main #slider2 .slider2 .mycarusel .mycard:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main #slider2 .slider2 .mycarusel .mycard .card .card-body {
+  height: 181px;
+  text-align: center;
+  width: 254px;
+}
+
+main #slider2 .slider2 .mycarusel .mycard .card .percent {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  left: 17px;
+  top: 16px;
+  background-color: #2bbef9;
+  width: 40px;
+  height: 20px;
+  color: white;
+}
+
+main #slider2 .slider2 .mycarusel .mycard .card .recommended {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  left: 17px;
+  top: 45px;
+  background-color: red;
+  width: 126px;
+  height: 20px;
+  color: white;
+}
+
+main #slider2 .slider2 .mycarusel .mycard .card a:nth-child(1) {
+  text-decoration: none;
+  color: #202435;
+  display: block;
+  padding: 5px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+main #slider2 .slider2 .mycarusel .mycard .card a:nth-child(1):hover {
+  color: #00b853;
+}
+
+main #slider2 .slider2 .mycarusel .mycard .card a:nth-child(2) {
+  position: absolute;
+  bottom: 40px;
+  left: 24%;
+  background-color: #202435;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
