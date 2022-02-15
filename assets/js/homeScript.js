@@ -1,4 +1,4 @@
-
+//HomePage
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
@@ -22,8 +22,8 @@ $(function () {
     const nexticon = '<i class="fas fa-arrow-right"></i>';
     const previcon = '<i class="fas fa-arrow-left"></i>';
     $(".home-slider").owlCarousel({
-        animateOut: 'slideOutDown',
-        animateIn: 'flipInX',
+        animateOut: 'linear',
+        animateIn: 'linear',
         items: 1,
         smartSpeed: 450,
         nav: true,
@@ -31,7 +31,8 @@ $(function () {
         animateIn: true,
         animateOut: true,
         navText: [previcon, nexticon],
-        loop: true
+        loop: true,
+        smartSpeed:1500
     });
 
     //Search
@@ -80,6 +81,9 @@ $(function () {
         margin:10,
         nav:true,
         dots: false,
+        smartspeed:1500,
+        animateIn: 'liner',
+        animateOut: 'liner',
         responsive:{
             0:{
                 items:1
@@ -121,4 +125,7 @@ $(function () {
         $(".shopsections").addClass("d-none");
     })
 })
+
+
+
 
