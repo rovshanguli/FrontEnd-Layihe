@@ -94,7 +94,31 @@ $(function () {
     })
     //Custom Methods
     $("#navmenu .allcatagories").click(function () {
-        $("#z-index div").css("background-color", "yellow")
+        let content = $(".allcatagoriescontent");
+        
+        if(content.hasClass("d-none")){
+            content.removeClass("d-none");
+        }else{
+            content.addClass("d-none");
+        }
+    })
+    $("#navmenu .navbar .mainul>li").mouseover(function(){
+        $(this).addClass("active");
+    })
+    $("#navmenu .navbar .mainul>li").mouseout(function(){
+        $(this).removeClass("active");
+    })
+    $("#navmenu .navbar .mainul>li:first-child").mouseover(function () {
+        $(".homesections").css("display","block");
+    })
+    $("#navmenu .navbar .mainul>li:first-child").mouseout(function () {
+        $(".homesections").css("display","none");
+    })
+    $("#navmenu .navbar .mainul>li:first-child").next().mouseover(function () {
+        $(".shopsections").removeClass("d-none");
+    })
+    $(".shopsections").mouseout(function () {
+        $(".shopsections").addClass("d-none");
     })
 })
 

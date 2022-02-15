@@ -683,15 +683,120 @@ header #navmenu .navbar ul li a {
   font-family: "Inter", sans-serif;
 }
 
-header #z-index div {
-  width: 100px;
-  height: 100px;
-  left: 134px;
-  top: 240px;
+header .allcatagoriescontent {
   position: absolute;
-  background-color: #2bbef9;
+  top: 250px;
+  left: 120px;
+  width: auto;
+  height: auto;
   z-index: 2;
+}
+
+header .allcatagoriescontent ul {
+  padding: 0;
+  list-style: none;
+  background-color: white;
+}
+
+header .allcatagoriescontent ul li {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 7px 30px 15px 10px;
+  font-size: 120%;
+  color: black;
+}
+
+header .allcatagoriescontent ul li .btn {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+}
+
+header .allcatagoriescontent ul li .sub-menu {
+  width: 300px;
+}
+
+header .allcatagoriescontent ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  background: none;
+}
+
+header .allcatagoriescontent ul li a:hover {
+  color: #233a95;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header .homesections {
+  position: absolute;
+  top: 237px;
+  left: 472px;
+  width: auto;
+  height: auto;
+  z-index: 2;
+  display: none;
+}
+
+header .homesections ul {
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+  width: auto;
+}
+
+header .homesections ul li {
+  margin-right: 57px;
+  margin-top: 10px;
+}
+
+header .homesections ul li:hover {
+  color: #233a95;
+}
+
+header .shopsections {
+  position: absolute;
+  top: 237px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  z-index: 7;
+}
+
+header .shopsections > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header .shopsections > ul a {
+  text-decoration: none;
+}
+
+header .shopsections > ul li ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  padding-right: 120px;
+}
+
+header .shopsections > ul li ul a {
   display: block;
+  padding-bottom: 10px;
+}
+
+header .shopsections > ul li ul li {
+  padding-bottom: 5px;
 }
 
 main #slider * {
