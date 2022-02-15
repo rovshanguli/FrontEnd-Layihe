@@ -105,6 +105,113 @@ main #dealsoftheweek .deals .products .mycard .card a:nth-child(2), main #slider
   color: white;
 }
 
+main #autoshiporder .own-container .mycard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+main #autoshiporder .own-container .mycard:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main #autoshiporder .own-container .mycard:hover i {
+  visibility: visible;
+}
+
+main #autoshiporder .own-container .mycard i {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  visibility: hidden;
+}
+
+main #autoshiporder .own-container .mycard i:hover {
+  background-color: blue;
+  color: white;
+}
+
+main #autoshiporder .own-container .mycard .card .card-body {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+main #autoshiporder .own-container .mycard .card .percent {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  left: 17px;
+  top: 16px;
+  background-color: #2bbef9;
+  width: 40px;
+  height: 20px;
+  color: white;
+}
+
+main #autoshiporder .own-container .mycard .card .recommended {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  left: 17px;
+  top: 45px;
+  background-color: red;
+  width: 126px;
+  height: 20px;
+  color: white;
+}
+
+main #autoshiporder .own-container .mycard .card a:nth-child(1) {
+  text-decoration: none;
+  color: #202435;
+  display: block;
+  padding: 5px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+main #autoshiporder .own-container .mycard .card a:nth-child(1):hover {
+  color: #00b853;
+}
+
+main #autoshiporder .own-container .mycard .card a:nth-child(2) {
+  position: absolute;
+  bottom: 40px;
+  left: 24%;
+  background-color: #202435;
+  color: white;
+}
+
 main #dealsoftheweek .deals .products .card a:nth-child(2) {
   display: none;
 }
@@ -997,6 +1104,19 @@ main #slider2 .slider2 .mycarusel .owl-nav .owl-next span {
   font-size: 30px;
   margin-bottom: 9px;
   display: block;
+}
+
+main #autoshiporder .own-container {
+  width: 1200px !important;
+}
+
+main #autoshiporder .own-container .custom-col-2 {
+  padding: 0;
+  width: 240px !important;
+  height: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 footer .main {

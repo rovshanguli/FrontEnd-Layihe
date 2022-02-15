@@ -791,6 +791,27 @@ main{
             }
         }
     }
+    #autoshiporder{
+        
+        .own-container{
+            
+            width: 1200px !important;
+            .custom-col-2{
+                padding: 0;
+                width: 240px !important;
+                height: 380px;
+                display: flex;
+                // margin-left: 5px;
+                
+            }
+            @extend %extend-card2;
+            
+            
+            
+            
+            
+        }
+    }
     
 }
 footer{
