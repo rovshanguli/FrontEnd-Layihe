@@ -38,7 +38,7 @@
 /* Main */
 .flip-clock-wrapper {
   font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
-  -webkit-user-select: none; }
+  -webkituserselect-: none; }
 
 .flip-clock-meridium {
   background: none !important;
@@ -176,11 +176,12 @@
   -webkit-animation: asd 0.01s 0.49s linear both;
   -moz-animation: asd 0.01s 0.49s linear both;
   animation: asd 0.01s 0.49s linear both;
-  z-index: 5; }
+  z-index: 5;
+ }
 
 .flip-clock-divider {
   float: left;
-  display: inline-block;
+  display: block;
   position: relative;
   width: 20px;
   height: 100px; }
