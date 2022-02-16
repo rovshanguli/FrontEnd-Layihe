@@ -5,8 +5,7 @@
 //Extends
 @import "./partials/extends/extends";
 main #dealsoftheweek .deals .products .mycard, main #slider2 .slider2 .mycarusel .mycard {
-	display: -webkit-box;
-	display: -ms-flexbox;
+	
 	display: flex;
 	position: relative;
 }
@@ -223,6 +222,7 @@ main {
 			.products {
 				padding-left: 10px;
 				.card {
+					
 					a {
 						&:nth-child(2) {
 							display: none;
@@ -230,6 +230,10 @@ main {
 					}
 				}
 				.mycard {
+					height: auto;
+					.card-body{
+						height: auto;
+					}
 					&:hover {
 						.card {
 							a {
