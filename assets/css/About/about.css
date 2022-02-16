@@ -543,125 +543,66 @@ header .shopsections > ul li ul li {
   padding-bottom: 5px;
 }
 
-main .about {
-  width: 1200px;
+main .aboutofbacola {
+  position: relative;
 }
 
-main .about .image img {
-  margin-bottom: 30px;
+main .aboutofbacola img {
   width: 100%;
+  height: 622.4px;
 }
 
-main .about .history {
-  font-size: 15px;
-}
-
-main .about .history span {
-  margin-right: 15px;
-}
-
-main .about .history span i {
-  color: #202435;
-  margin-right: 10px;
-}
-
-main .about .history span a {
-  color: #202435;
-  text-decoration: none;
-}
-
-main .about .post a {
-  text-decoration: none;
-}
-
-main .about .post .blockpost {
-  padding: 40px 50px;
-  border-left: 7px solid #68689e;
-}
-
-main .about .post .blockpost p {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-main .about .post ul {
-  list-style: circle;
-}
-
-main .about .post .ul {
-  list-style: none;
-}
-
-main .about .post .ul ul {
-  list-style: none;
-}
-
-main .about .post .comment img {
-  width: 68px;
-  height: 68px;
-  border-radius: 50%;
-}
-
-main .about .post .comment .maincomment {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-main .about .post .comment .maincomment span {
-  color: #755d5d;
-  font-size: small;
-}
-
-main .about .post .comment .addcomment {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  padding: 40px;
-}
-
-main .about .post .comment .addcomment textarea {
-  width: 100%;
-  background-color: #f7e8e8;
-  padding: 12px;
-  border-radius: 5px;
-}
-
-main .about .post .comment .addcomment textarea:focus {
-  outline: none;
-}
-
-main .about .post .comment .addcomment .name {
-  width: 100%;
-  background-color: #f7e8e8;
-  border: none;
-  padding-left: 10px;
-  border-radius: 5px;
-  height: 40px;
-}
-
-main .about .post .comment .addcomment .name:focus {
-  outline: none;
-}
-
-main .about .post .comment .addcomment .email {
-  width: 44%;
-  background-color: #f7e8e8;
-  border: none;
-  padding-left: 10px;
-  border-radius: 5px;
-  height: 40px;
-  margin-right: 40px;
-}
-
-main .about .post .comment .addcomment .email:focus {
-  outline: none;
-}
-
-main .about .post .comment .addcomment .submit {
-  padding: 5px 15px;
-  background-color: #233a95;
+main .aboutofbacola h2 {
   color: white;
-  border-radius: 5px;
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  font-size: 70px;
+}
+
+main .aboutofbacola p {
+  position: absolute;
+  color: white;
+  position: absolute;
+  left: 40%;
+  top: 55%;
+  font-size: 20px;
+}
+
+main .aboutcontent {
+  width: 1200px;
+  padding-bottom: 183px;
+  padding-top: 20px;
+}
+
+main .aboutcontent .abouttext {
+  padding-left: 30PX;
+}
+
+main .about {
+  margin-bottom: 213px;
+}
+
+main .about-people img {
+  width: 570px;
+  height: 855px;
+}
+
+main .about-people-text {
+  padding-top: 200px;
+  padding-left: 28px;
+}
+
+main .z-indexcontent {
+  position: absolute;
+  z-index: 33;
+  background-color: white;
+  padding: 60px 0px;
+  padding-left: 100px;
+  padding-right: 15px;
+  right: 100px;
+  width: 985px;
+  border-radius: 15px;
 }
 
 footer .main {

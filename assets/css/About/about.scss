@@ -505,111 +505,64 @@ header {
 	}
 }
 main{
-	.about{
+	.aboutofbacola{
+		position: relative;
+		
+		img{
+			
+			width: 100%;
+			height: 622.4px;
+			
+		}
+		h2{
+			color: white;
+			position: absolute;
+			left:30%;
+			top:40%;
+			font-size: 70px;
+		}
+		p{
+			position: absolute;
+			color: white;
+			position: absolute;
+			left:40%;
+			top:55%;
+			font-size: 20px;
+		}
+	}
+	.aboutcontent{
 		width: 1200px;
-		.image{
-			img{
-				margin-bottom: 30px;
-				width: 100%;
-			}
+		padding-bottom: 183px;
+		.abouttext{
+			padding-left: 30PX;
 		}
-		.history{
-			font-size: 15px;
-
-			span{
-				margin-right: 15px;
-				i{
-					color: #202435;
-					margin-right: 10px;
-				}
-				a{
-					color: #202435;
-					text-decoration: none;
-				}
-			}
+		
+			padding-top: 20px;
+		
+	}
+	.about{
+		margin-bottom: 213px;
+	}
+	.about-people{
+		img{
+			width: 570px;
+			height: 855px;
 		}
-		.post{
-			a{
-				text-decoration: none;
-			}
-			.blockpost{
-				padding: 40px 50px;
-				border-left: 7px solid rgb(104, 104, 158);
-				p{
-					font-size: 30px;
-					font-weight: 700;
-				}
-			}
-			ul{
-				list-style: circle;
-			}
-			.ul{
-				list-style: none;
-				ul{
-					list-style: none;
-				}
-			}
-			.comment{
-				
-				img{
-					width: 68px;
-					height: 68px;
-					border-radius: 50%;
-				}
-				.maincomment{
-					display: flex;
-					span{
-						color: rgb(117, 93, 93);
-						font-size: small;	
-					}
-				}
-				.addcomment{
-					box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-					padding: 40px;
-					textarea{
-						width: 100%;
-						background-color: rgb(247, 232, 232);
-						padding: 12px;
-						border-radius: 5px;
-						&:focus{
-							outline: none;
-						}
-					}
-					.name{
-						width: 100%;
-						background-color: rgb(247, 232, 232);
-						border: none;
-						padding-left: 10px;
-						border-radius: 5px;
-						height: 40px;
-						&:focus{
-							outline: none;
-
-						}
-					}
-					.email{
-						width: 44%;
-						background-color: rgb(247, 232, 232);
-						border: none;
-						padding-left: 10px;
-						border-radius: 5px;
-						height: 40px;
-						margin-right: 40px;
-						&:focus{
-							outline: none;
-
-						}
-					}
-					.submit{
-						padding: 5px 15px;
-						background-color: #233a95;
-						color: white;
-						border-radius: 5px;
-					}
-					
-				}
-			}
-		}
+	}
+	.about-people-text{
+		padding-top: 200px;
+		padding-left: 28px;
+	}
+	.z-indexcontent{
+		position: absolute;
+		z-index: 33;
+		background-color: white;
+		padding: 60px 0px;
+		padding-left: 100px;
+		padding-right: 15px;
+		right: 100px;
+		width: 985px;
+		border-radius: 15px;
 	}
 }
 footer {
