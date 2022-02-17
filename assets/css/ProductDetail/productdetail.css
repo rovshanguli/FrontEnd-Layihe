@@ -543,180 +543,453 @@ header .shopsections > ul li ul li {
   padding-bottom: 5px;
 }
 
-main .blogpage {
+main .content {
+  background-color: #f7f8fd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main .content .productdetail {
   width: 1200px;
-  margin-top: 56px;
+  padding: 40px;
+  background-color: white;
 }
 
-main .blogpage .image img {
-  margin-bottom: 30px;
-  width: 100%;
-}
-
-main .blogpage .history {
-  font-size: 15px;
-}
-
-main .blogpage .history span {
-  margin-right: 15px;
-}
-
-main .blogpage .history span i {
-  color: #202435;
-  margin-right: 10px;
-}
-
-main .blogpage .history span a {
-  color: #202435;
-  text-decoration: none;
-}
-
-main .blogpage .button {
-  background-color: #233a95;
-  color: white;
-  padding: 5px 15px;
-}
-
-main .blogpage .form {
-  position: relative;
-}
-
-main .blogpage .form .fa-search {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #9ca3af;
-}
-
-main .blogpage .form span {
-  position: absolute;
-  right: 17px;
-  top: 13px;
-  padding: 2px;
-  border-left: 1px solid #d1d5db;
-}
-
-main .blogpage .pagination {
-  display: block;
-}
-
-main .blogpage .pagination p {
-  text-align: center;
-}
-
-main .blogpage .left-pan {
-  padding-left: 7px;
-}
-
-main .blogpage .left-pan i {
-  padding-left: 10px;
-}
-
-main .blogpage .form-input {
-  height: 55px;
-  text-indent: 33px;
-  border-radius: 10px;
-}
-
-main .blogpage .form-input:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: none;
-}
-
-main .blogpage .popularposts h3 {
-  font-family: "Dosis",sans-serif;
-  font-size: 20px;
-}
-
-main .blogpage .popularposts .posts .post {
-  margin: 20px;
-  position: relative;
+main .content .productdetail .rateing {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .blogpage .popularposts .posts .post img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
+main .content .productdetail .rateing .brand span:nth-child(1) {
+  color: #ddd;
+  font-size: .75rem;
 }
 
-main .blogpage .popularposts .posts .post h6 {
+main .content .productdetail .rateing .brand span:nth-child(2) {
+  font-size: .75rem;
+}
+
+main .content .productdetail .rateing .stars {
+  margin-left: 20px;
+  border-left: 1px solid #babad1;
+  padding-left: 5px;
+}
+
+main .content .productdetail .rateing .stars .active {
+  color: orange;
+}
+
+main .content .productdetail .rateing .stars i {
+  font-size: .75rem;
+}
+
+main .content .productdetail .rateing .stars span {
+  font-size: .75rem;
+}
+
+main .content .productdetail .rateing .code {
+  margin-left: 20px;
+  border-left: 1px solid #babad1;
+  padding-left: 5px;
+}
+
+main .content .productdetail .rateing .code span:nth-child(1) {
+  color: #ddd;
+  font-size: .75rem;
+}
+
+main .content .productdetail .rateing .code span:nth-child(2) {
+  font-size: .75rem;
+}
+
+main .content .productdetail .mycorusel .carousel {
+  height: 50vh;
+}
+
+main .content .productdetail .mycorusel .carousel-inner div, main .content .productdetail .mycorusel .corusel-item div {
+  position: relative;
+}
+
+main .content .productdetail .mycorusel .carousel-inner div span:nth-child(2), main .content .productdetail .mycorusel .corusel-item div span:nth-child(2) {
   position: absolute;
-  left: 16%;
+  left: 15px;
+  top: 60px;
+  font-size: 15px;
+  padding: 5px 15px;
+  background-color: #be6262;
+  color: white;
+  border-radius: 5px;
+}
+
+main .content .productdetail .mycorusel .carousel-inner div span:nth-child(3), main .content .productdetail .mycorusel .corusel-item div span:nth-child(3) {
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  font-size: 15px;
+  padding: 5px 15px;
+  background-color: #61408d;
+  color: white;
+  border-radius: 5px;
+}
+
+main .content .productdetail .priceanddetails {
+  background-color: white;
+}
+
+main .content .productdetail .priceanddetails .price span:nth-child(1) {
+  text-decoration: line-through;
+  font-size: 20px;
+  padding-right: 5px;
+  color: #2bbef9;
+}
+
+main .content .productdetail .priceanddetails .price span:nth-child(2) {
+  font-size: 25px;
+  color: #9e3a3a;
+}
+
+main .content .productdetail .priceanddetails .stock {
+  margin-top: 10px;
+}
+
+main .content .productdetail .priceanddetails .stock span {
+  background-color: #9cc49c;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+main .content .productdetail .priceanddetails .numofproduct span:nth-child(1), main .content .productdetail .priceanddetails .numofproduct span:nth-child(3) {
+  display: inline-block;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 30px;
+  color: white;
+  border-radius: 50%;
+  font-size: 22px;
+  background-color: #2bbef9;
+  width: 50px;
+  height: 50px;
+}
+
+main .content .productdetail .priceanddetails .numofproduct span:nth-child(2) {
+  display: inline-block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 30px;
+  color: black;
+  border-radius: 50%;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+}
+
+main .content .productdetail .priceanddetails .numofproduct input {
   background-color: #233a95;
   color: white;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  border-radius: 50%;
-  padding-top: 4px;
-  border: 2px solid white;
-}
-
-main .blogpage .popularposts .posts .post p {
-  margin-left: 20px;
-  font-weight: 600;
-}
-
-main .blogpage .socialmedias .media {
-  background-color: red;
-  width: 100%;
-  background-color: #3b5998;
-  color: white;
-  padding-top: 7px;
-  padding-left: 10px;
-  border-radius: 9px;
+  border-radius: 25px;
+  margin-left: 10px;
+  padding: 10px 25px;
+  font-size: 12px;
   margin-bottom: 2px;
 }
 
-main .blogpage .socialmedias .media:hover {
-  background-color: #7f8ead;
+main .content .productdetail .priceanddetails .wishlist {
+  margin-top: 50px;
 }
 
-main .blogpage .socialmedias .media i {
-  font-size: 20px;
-  padding-top: 3px;
-  margin-right: 20px;
+main .content .productdetail .priceanddetails .wishlist span {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-main .blogpage .socialmedias .media h4 {
-  font-size: 20px;
+main .content .productdetail .priceanddetails .wishlist span i {
+  margin-right: 10px;
 }
 
-main .blogpage .banner h3 {
-  font-size: 19px;
+main .content .productdetail .priceanddetails .wishlist span:nth-child(2) {
+  border: none;
+  margin-left: 20px;
 }
 
-main .blogpage .banner img {
-  width: 100%;
-}
-
-main .blogpage .tags {
-  width: 100%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-main .blogpage .tags h3 {
-  font-size: 19px;
-}
-
-main .blogpage .tags .tag {
-  width: 100%;
+main .content .productdetail .priceanddetails .aboutproduct ul {
   list-style: none;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
-main .blogpage .tags .tag li {
-  padding: 2px 5px;
-  margin-right: 5px;
-  margin-bottom: 7px;
-  border: 1px solid #edeef5;
+main .content .productdetail .priceanddetails .aboutproduct ul li i {
+  color: orange;
+  margin-right: 10px;
+}
+
+main .content .productdetail .priceanddetails p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #916f6f;
+}
+
+main .content .productdetail .priceanddetails .socialmedias ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .content .productdetail .priceanddetails .socialmedias ul li {
+  width: 33px;
+  height: 33px;
+  background-color: #233a95;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-right: 10px;
+}
+
+main .content .productdetail .priceanddetails .socialmedias ul li:nth-child(1) {
+  background-color: #3b5998;
+}
+
+main .content .productdetail .priceanddetails .socialmedias ul li:nth-child(2) {
+  background-color: #1da1f2;
+}
+
+main .content .productdetail .priceanddetails .socialmedias ul li:nth-child(3) {
+  background-color: #e60023;
+}
+
+main .content .productdetail .priceanddetails .socialmedias ul li:nth-child(4) {
+  background-color: #0077b5;
+}
+
+main .content .productdetail .priceanddetails .socialmedias ul li:nth-child(5) {
+  background-color: #ff4500;
+}
+
+main .content .productdetail .priceanddetails .socialmedias ul li:nth-child(6) {
+  background-color: #25d366;
+}
+
+main .content .productdetail .priceanddetails .delivery p {
+  background-color: #ffeef2;
+  padding: 9px 24px;
+  border-radius: 5px;
+}
+
+main .content .productdetail .priceanddetails .delivery ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  background-color: #f7f8fd;
+  padding: 20px;
+}
+
+main .content .productdetail .priceanddetails .delivery ul li {
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+main .content .productdetail .priceanddetails .delivery ul li i {
+  padding-right: 8px;
+}
+
+main .content .blog {
+  width: 1200px;
+  padding: 0;
+}
+
+main .content .blog .navmenu {
+  width: 1200px;
+  padding: 40px;
+  background-color: white;
+}
+
+main .content .blog .navmenu .activecontent {
+  display: block !important;
+}
+
+main .content .blog .navmenu ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .content .blog .navmenu ul .active {
+  color: #c2c2d3;
+}
+
+main .content .blog .navmenu ul li {
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+main .content .relatedproducts {
+  width: 1200px;
+  padding: 40px;
+  background-color: white;
+}
+
+main .content .relatedproducts .mycard {
+  position: relative;
+  border: none;
+  border-right: 1px solid #edeef5;
+  border-bottom: 1px solid #edeef5;
+}
+
+main .content .relatedproducts .mycard .card-body {
+  position: inherit;
+}
+
+main .content .relatedproducts .mycard .card-body h5 {
   font-size: 15px;
+  color: #202335;
+  font-family: "Intern",sans-serif;
+}
+
+main .content .relatedproducts .mycard .card-body .stock {
+  color: #00b853;
+  font-size: .6875rem;
+  margin-bottom: 0.625rem;
+  font-weight: bold;
+}
+
+main .content .relatedproducts .mycard .card-body .rateing {
+  font-family: 'klbtheme';
+  font-size: 11px;
+  padding-top: 10px;
+}
+
+main .content .relatedproducts .mycard .card-body .rateing .activerateing {
+  color: orange;
+}
+
+main .content .relatedproducts .mycard .card-body .price .oldprice {
+  text-decoration: line-through;
+  color: #c2c2de;
+  font-size: 80%;
+  font-weight: 500;
+}
+
+main .content .relatedproducts .mycard .card-body .price .newprice {
+  font-family: "Dosis",sans-serif;
+}
+
+main .content .relatedproducts .mycard .card-body a {
+  width: 100%;
+  background-color: #233a95;
+  color: white;
+  border-radius: 20px;
+  opacity: 0;
+  position: relative;
+}
+
+main .content .relatedproducts .mycard:hover a {
+  opacity: 1;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  margin-top: 220px;
+}
+
+main .content .relatedproducts .mycard:hover {
+  position: relative;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 2px solid #edeef5;
+  z-index: 12;
+}
+
+main .content .relatedproducts .mycard .percent {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #0077b5;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Dosis", sans serif;
+  font-weight: 700;
+}
+
+main .content .relatedproducts .mycard .zoom {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 30px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  opacity: 0;
+}
+
+main .content .relatedproducts .mycard .zoom:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+
+main .content .relatedproducts .mycard .heart {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 80px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  opacity: 0;
+}
+
+main .content .relatedproducts .mycard .heart:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+
+main .content .relatedproducts .mycard:hover .heart {
+  opacity: 1;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+main .content .relatedproducts .mycard:hover .zoom {
+  opacity: 1;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 footer .main {
@@ -889,4 +1162,4 @@ footer .contact .contactdetails .rightsection .mobileapps {
   top: 7px;
   position: absolute;
 }
-/*# sourceMappingURL=blog.css.map */
+/*# sourceMappingURL=productdetail.css.map */
