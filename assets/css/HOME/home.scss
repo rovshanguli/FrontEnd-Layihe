@@ -219,36 +219,7 @@ main {
 			display: -webkit-box;
 			display: -ms-flexbox;
 			display: flex;
-			.products {
-				padding-left: 10px;
-				.card {
-					
-					a {
-						&:nth-child(2) {
-							display: none;
-						}
-					}
-				}
-				.mycard {
-					height: auto;
-					.card-body{
-						height: auto;
-					}
-					&:hover {
-						.card {
-							a {
-								&:nth-child(2) {
-									display: block;
-								}
-							}
-						}
-					}
-				}
-				* {
-					margin: 0;
-					padding: 0;
-				}
-			}
+			
 			.timerdeal {
 				margin-right: 20px;
 				width: 420px;
@@ -389,6 +360,7 @@ main {
 					}
 				}
 			}
+			
 		}
 	}
 	#slider {
