@@ -11,9 +11,7 @@ $(function () {
             activecontent.removeClass("activecontent");
             let activepage = $(this).attr("data-id");
             let newactivecontent = $('.navmenu > div[data-id = '+ activepage +']');
-            newactivecontent.addClass("activecontent")
-            
-            
+            newactivecontent.addClass("activecontent");
             
         }
     })

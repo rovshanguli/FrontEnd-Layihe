@@ -370,8 +370,23 @@
                         </div>
 
                     </div>
+                    <h5 class="mt-5" style="margin-left: 20px;">Filter by price</h5>
+                    <div class="slidecontainer" style="margin-left: 20px;">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        <p>Value:<span id="demo"></span></p>
+                    </div>
+                    <h5 class="mt-5" style="margin-left: 20px;">Product Status</h5>
+                    <span style="margin-left: 20px ;"><input type="checkbox"> In Stock</span><br>
+                    <span style="margin-left: 20px;"><input type="checkbox"> On Sale</span>
+                    <h5 class="mt-5" style="margin-left: 20px;">Brands</h5>
+                    <span style="margin-left: 20px ;"><input type="checkbox"> Frito Lay</span><br>
+                    <span style="margin-left: 20px;"><input type="checkbox"> Nespresso</span><br>
+                    <span style="margin-left: 20px ;"><input type="checkbox"> Oreo</span><br>
+                    <span style="margin-left: 20px;"><input type="checkbox"> Quaker</span>
+
+                    <img src="./assets/img/sidebar-banner.gif" alt="" class="mt-5" style="width: 100%;">
                 </div>
-                <div class="col-9">
+                <div class="col-9" ">
                     <div class="image">
                         <img src="./assets/img/bacola-banner-18.jpg" alt="">
                         <span>Organic Meals Prepared</span>
@@ -383,7 +398,7 @@
                         <i class="fas fa-th-large"></i><i class="fas fa-th"></i>
                         <div>Sort by list <i class="fas fa-caret-down"> </i></div>
                     </div>
-                    <div class="row">
+                    <div class="row activecontent d-none activepage" data-id="1">
                         <div class="col-4">
                             <div class="card mycard"">
                                 <img class=" card-img-top" src="./assets/img/shoppage1.jpg" alt="Card image cap">
@@ -458,7 +473,7 @@
                         </div>
                         <div class="col-4">
                             <div class="card mycard"">
-                            <img class=" card-img-top" src="./assets/img/shoppage4.jpg" alt="Card image cap">
+                            <img class=" card-img-top" src="./assets/img/shoppage8.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Warrior Blend Organic</h5>
                                     <span class="stock">IN STOCK</span>
@@ -528,6 +543,341 @@
                                 <div class="heart"><i class="far fa-heart"></i></div>
                             </div>
                         </div>
+                    </div>
+                    <div class="row activecontent d-none" data-id="2">
+                      
+                        <div class="col-4">
+                            <div class="card mycard"">
+                                <img class=" card-img-top" src="./assets/img/shoppage2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Blend Organic</h5>
+                                    <span class="stock">IN STOCK</span>
+                                    <div class="rateing">
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                    </div>
+                                    <div class="price mt-3">
+                                        <span class="oldprice">$33.00</span>
+                                        <span class="newprice mx-2">$25.00</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                                </div>
+                                <div class="percent">26%</div>
+                                <div class="zoom"><i class="fab fa-joomla"></i></div>
+                                <div class="heart"><i class="far fa-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mycard"">
+                                <img class=" card-img-top" src="./assets/img/shoppage3.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Blend Organic</h5>
+                                    <span class="stock">IN STOCK</span>
+                                    <div class="rateing">
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                    </div>
+                                    <div class="price mt-3">
+                                        <span class="oldprice">$33.00</span>
+                                        <span class="newprice mx-2">$25.00</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                                </div>
+                                <div class="percent">26%</div>
+                                <div class="zoom"><i class="fab fa-joomla"></i></div>
+                                <div class="heart"><i class="far fa-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mycard"">
+                            <img class=" card-img-top" src="./assets/img/shoppage8.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Blend Organic</h5>
+                                    <span class="stock">IN STOCK</span>
+                                    <div class="rateing">
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                    </div>
+                                    <div class="price mt-3">
+                                        <span class="oldprice">$33.00</span>
+                                        <span class="newprice mx-2">$25.00</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                                </div>
+                                <div class="percent">26%</div>
+                                <div class="zoom"><i class="fab fa-joomla"></i></div>
+                                <div class="heart"><i class="far fa-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mycard"">
+                        <img class=" card-img-top" src="./assets/img/shoppage5.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Blend Organic</h5>
+                                    <span class="stock">IN STOCK</span>
+                                    <div class="rateing">
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                    </div>
+                                    <div class="price mt-3">
+                                        <span class="oldprice">$33.00</span>
+                                        <span class="newprice mx-2">$25.00</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                                </div>
+                                <div class="percent">26%</div>
+                                <div class="zoom"><i class="fab fa-joomla"></i></div>
+                                <div class="heart"><i class="far fa-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mycard"">
+                    <img class=" card-img-top" src="./assets/img/shoppage6.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Blend Organic</h5>
+                                    <span class="stock">IN STOCK</span>
+                                    <div class="rateing">
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                    </div>
+                                    <div class="price mt-3">
+                                        <span class="oldprice">$33.00</span>
+                                        <span class="newprice mx-2">$25.00</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                                </div>
+                                <div class="percent">26%</div>
+                                <div class="zoom"><i class="fab fa-joomla"></i></div>
+                                <div class="heart"><i class="far fa-heart"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row activecontent d-none" data-id="3">
+                      
+                        <div class="col-4">
+                            <div class="card mycard"">
+                                <img class=" card-img-top" src="./assets/img/shoppage7.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Blend Organic</h5>
+                                    <span class="stock">IN STOCK</span>
+                                    <div class="rateing">
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                    </div>
+                                    <div class="price mt-3">
+                                        <span class="oldprice">$33.00</span>
+                                        <span class="newprice mx-2">$25.00</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                                </div>
+                                <div class="percent">26%</div>
+                                <div class="zoom"><i class="fab fa-joomla"></i></div>
+                                <div class="heart"><i class="far fa-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mycard"">
+                                <img class=" card-img-top" src="./assets/img/shoppage4.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Blend Organic</h5>
+                                    <span class="stock">IN STOCK</span>
+                                    <div class="rateing">
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                    </div>
+                                    <div class="price mt-3">
+                                        <span class="oldprice">$33.00</span>
+                                        <span class="newprice mx-2">$25.00</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                                </div>
+                                <div class="percent">26%</div>
+                                <div class="zoom"><i class="fab fa-joomla"></i></div>
+                                <div class="heart"><i class="far fa-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mycard"">
+                            <img class=" card-img-top" src="./assets/img/shoppage2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Blend Organic</h5>
+                                    <span class="stock">IN STOCK</span>
+                                    <div class="rateing">
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                    </div>
+                                    <div class="price mt-3">
+                                        <span class="oldprice">$33.00</span>
+                                        <span class="newprice mx-2">$25.00</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                                </div>
+                                <div class="percent">26%</div>
+                                <div class="zoom"><i class="fab fa-joomla"></i></div>
+                                <div class="heart"><i class="far fa-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mycard"">
+                        <img class=" card-img-top" src="./assets/img/shoppage1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Blend Organic</h5>
+                                    <span class="stock">IN STOCK</span>
+                                    <div class="rateing">
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                        <i class="fas fa-star activerateing"></i>
+                                    </div>
+                                    <div class="price mt-3">
+                                        <span class="oldprice">$33.00</span>
+                                        <span class="newprice mx-2">$25.00</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                                </div>
+                                <div class="percent">26%</div>
+                                <div class="zoom"><i class="fab fa-joomla"></i></div>
+                                <div class="heart"><i class="far fa-heart"></i></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="pagenation mt-4">
+                        <ul >
+                            <li data-id="1">1</li>
+                            <li data-id="2">2</li>
+                            <li data-id="3">3</li>
+                            <li data-id="4">4</li>
+                            <li data-id="5">5</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>  
+            <div class="row">
+                <h3>Recently viewed product</h3>
+                <div class="col-3">
+                    <div class="card mycard"">
+                        <img class=" card-img-top" src="./assets/img/shoppage1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Warrior Blend Organic</h5>
+                            <span class="stock">IN STOCK</span>
+                            <div class="rateing">
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                            </div>
+                            <div class="price mt-3">
+                                <span class="oldprice">$33.00</span>
+                                <span class="newprice mx-2">$25.00</span>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                        </div>
+                        <div class="percent">26%</div>
+                        <div class="zoom"><i class="fab fa-joomla"></i></div>
+                        <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mycard"">
+                        <img class=" card-img-top" src="./assets/img/shoppage2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Warrior Blend Organic</h5>
+                            <span class="stock">IN STOCK</span>
+                            <div class="rateing">
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                            </div>
+                            <div class="price mt-3">
+                                <span class="oldprice">$33.00</span>
+                                <span class="newprice mx-2">$25.00</span>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                        </div>
+                        <div class="percent">26%</div>
+                        <div class="zoom"><i class="fab fa-joomla"></i></div>
+                        <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mycard"">
+                        <img class=" card-img-top" src="./assets/img/shoppage4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Warrior Blend Organic</h5>
+                            <span class="stock">IN STOCK</span>
+                            <div class="rateing">
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                            </div>
+                            <div class="price mt-3">
+                                <span class="oldprice">$33.00</span>
+                                <span class="newprice mx-2">$25.00</span>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                        </div>
+                        <div class="percent">26%</div>
+                        <div class="zoom"><i class="fab fa-joomla"></i></div>
+                        <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mycard"">
+                        <img class=" card-img-top" src="./assets/img/shoppage6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Warrior Blend Organic</h5>
+                            <span class="stock">IN STOCK</span>
+                            <div class="rateing">
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                                <i class="fas fa-star activerateing"></i>
+                            </div>
+                            <div class="price mt-3">
+                                <span class="oldprice">$33.00</span>
+                                <span class="newprice mx-2">$25.00</span>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-5">Add to card</a>
+                        </div>
+                        <div class="percent">26%</div>
+                        <div class="zoom"><i class="fab fa-joomla"></i></div>
+                        <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                </div>
+            </div>
     </main>
     <footer>
         <div class="main">
