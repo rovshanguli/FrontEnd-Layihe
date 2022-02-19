@@ -110,6 +110,7 @@ $(function () {
         $(".card .summary .delivery").text(`${parseInt(totalprice)+5}${".00"}`)
         $(".card .summary .items").text(` ITEMS ${totalitems+1}`);
     })
+    
 
 })
 
