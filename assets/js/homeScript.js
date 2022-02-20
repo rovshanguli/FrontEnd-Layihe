@@ -159,6 +159,22 @@ function myFunction() {
     }
 }
 
+$(function () {
+    let fruitcatagory = $("#allcatagories-navmenu .selectcatagori li:nth-child(1)")
+    let homelist = $("#allcatagories-navmenu .navmenu li:nth-child(1)")
+    fruitcatagory.mouseover(function () {
+        $(".fruitslist").css("opacity","1")
+    })
+    fruitcatagory.mouseleave(function () {
+        $(".fruitslist").css("opacity","0")
+    })
+    homelist.mouseover(function () {
+        $(".homelist").css("opacity","1");
+    })
+    homelist.mouseleave(function () {
+        $(".homelist").css("opacity","0");
+    })
+})
 
 
 

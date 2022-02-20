@@ -576,4 +576,191 @@ header .navmenu ul li:hover {
 header .navmenu ul li i {
   padding-left: 10px;
 }
+
+header .fruitslist {
+  position: absolute;
+  z-index: 10;
+  left: 410px;
+  background-color: white;
+  opacity: 0;
+}
+
+header .fruitslist ul {
+  list-style: none;
+}
+
+header .fruitslist ul li {
+  padding: 10px;
+}
+
+header .fruitslist ul li:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+header .homelist {
+  position: absolute;
+  z-index: 20;
+  left: 470px;
+  background-color: white;
+  opacity: 0;
+}
+
+header .homelist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header .homelist ul li {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+main .mycard {
+  position: relative;
+  border: none;
+  border-right: 1px solid #edeef5;
+  border-bottom: 1px solid #edeef5;
+}
+
+main .mycard .card-body {
+  position: inherit;
+}
+
+main .mycard .card-body h5 {
+  font-size: 15px;
+  color: #202335;
+  font-family: "Intern",sans-serif;
+}
+
+main .mycard .card-body .stock {
+  color: #00b853;
+  font-size: .6875rem;
+  margin-bottom: 0.625rem;
+  font-weight: bold;
+}
+
+main .mycard .card-body .rateing {
+  font-family: 'klbtheme';
+  font-size: 11px;
+  padding-top: 10px;
+}
+
+main .mycard .card-body .rateing .activerateing {
+  color: orange;
+}
+
+main .mycard .card-body .price .oldprice {
+  text-decoration: line-through;
+  color: #c2c2de;
+  font-size: 80%;
+  font-weight: 500;
+}
+
+main .mycard .card-body .price .newprice {
+  font-family: "Dosis",sans-serif;
+}
+
+main .mycard .card-body a {
+  width: 100%;
+  background-color: #233a95;
+  color: white;
+  border-radius: 20px;
+  opacity: 0;
+  position: relative;
+}
+
+main .mycard:hover a {
+  opacity: 1;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  margin-top: 220px;
+}
+
+main .mycard:hover {
+  position: relative;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 2px solid #edeef5;
+  z-index: 12;
+}
+
+main .mycard .percent {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #0077b5;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Dosis", sans serif;
+  font-weight: 700;
+}
+
+main .mycard .zoom {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 30px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  opacity: 0;
+}
+
+main .mycard .zoom:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+
+main .mycard .heart {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 80px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  opacity: 0;
+}
+
+main .mycard .heart:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+
+main .mycard:hover .heart {
+  opacity: 1;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+main .mycard:hover .zoom {
+  opacity: 1;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
 /*# sourceMappingURL=home2.css.map */

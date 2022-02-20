@@ -481,6 +481,39 @@ header{
             }
         }
     }
+    .fruitslist{
+        position: absolute;
+        z-index: 10;
+        left: 410px;
+        background-color: white;
+        opacity: 0;
+        ul{
+            list-style: none;
+            li{
+                &:hover{
+                    cursor: pointer;
+                    color: blue;
+                }
+                padding: 10px;
+            }
+        }
+    }
+    .homelist{
+        position: absolute;
+        z-index: 20;
+        left: 470px;
+        background-color: white;
+        opacity: 0;
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li{
+                cursor: pointer;
+                padding: 10px 20px;
+            }
+        }
+    }
 }
 main{
     .mycard{
